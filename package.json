@@ -1,0 +1,34 @@
+{
+  "name": "rbi",
+  "version": "0.1.0",
+  "description": "Repository debt inspector for stale branches and pull requests",
+  "type": "module",
+  "license": "MIT",
+  "author": "escsyntax-sudo",
+  "bin": {
+    "rbi": "bin/rbi.js"
+  },
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "github",
+    "maintenance",
+    "stale-branches",
+    "pull-requests",
+    "report"
+  ]
+}
